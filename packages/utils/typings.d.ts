@@ -1,4 +1,4 @@
 declare module 'import-local' {
-  const content: any;
+  const content: (path: string) => boolean;
   export default content;
 }

@@ -7,32 +7,38 @@ importers:
 
   ../../packages/core/cli:
     specifiers:
-      '@forestar/log': workspace:*
+      '@forestar/utils': workspace:*
       '@types/node': ~17.0.8
-      import-local: ~3.1.0
       typescript: ~4.5.4
     dependencies:
-      '@forestar/log': link:../../utils/log
-      import-local: 3.1.0
-      typescript: 4.5.4
+      '@forestar/utils': link:../../utils
     devDependencies:
       '@types/node': 17.0.8
+      typescript: 4.5.4
 
-  ../../packages/utils/log:
+  ../../packages/utils:
     specifiers:
       '@types/node': ~17.0.8
+      '@types/npmlog': ~4.1.4
+      import-local: ~3.1.0
       npmlog: ~6.0.0
       typescript: ~4.5.4
     dependencies:
+      import-local: 3.1.0
       npmlog: 6.0.0
-      typescript: 4.5.4
     devDependencies:
       '@types/node': 17.0.8
+      '@types/npmlog': 4.1.4
+      typescript: 4.5.4
 
 packages:
 
   /@types/node/17.0.8:
     resolution: {integrity: sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==}
+    dev: true
+
+  /@types/npmlog/4.1.4:
+    resolution: {integrity: sha512-WKG4gTr8przEZBiJ5r3s8ZIAoMXNbOgQ+j/d5O4X3x6kZJRLNvyUJuUK/KoG3+8BaOHPhp2m7WC6JKKeovDSzQ==}
     dev: true
 
   /ansi-regex/5.0.1:
@@ -221,7 +227,7 @@ packages:
     resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: false
+    dev: true
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}

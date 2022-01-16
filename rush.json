@@ -389,13 +389,13 @@
     {
       "packageName": "@forestar/cli",
       "projectFolder": "packages/core/cli", // 项目地址
-      "reviewCategory": "tools", // 包类型
+      "reviewCategory": "cli", // 包类型
       "shouldPublish": true // 是否发布
     },
     {
-      "packageName": "@forestar/log",
-      "projectFolder": "packages/utils/log",
-      "reviewCategory": "tools",
+      "packageName": "@forestar/utils",
+      "projectFolder": "packages/utils",
+      "reviewCategory": "utils",
       "shouldPublish": true
     }
     // {

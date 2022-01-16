@@ -1,0 +1,1 @@
+export type CoreParams = string[];

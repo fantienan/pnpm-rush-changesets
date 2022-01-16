@@ -32,5 +32,11 @@
   "files.associations": {
     "**/package.json": "json",
     "**/*.json": "jsonc"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }

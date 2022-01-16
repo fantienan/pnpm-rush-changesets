@@ -2,6 +2,18 @@
   "name": "@forestar/utils",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@forestar/utils_v1.0.2",
+      "date": "Sun, 16 Jan 2022 11:31:12 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "添加build"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@forestar/utils_v1.0.1",
       "date": "Sun, 16 Jan 2022 08:31:09 GMT",

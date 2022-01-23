@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
-    "paths": {
-      "@forestar/log": ["packages/utils/log/lib"]
-    },
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

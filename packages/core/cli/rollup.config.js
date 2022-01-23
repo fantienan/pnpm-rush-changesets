@@ -9,7 +9,7 @@ export default defineConfig([
   {
     input: 'src/index.ts',
     output: {
-      name: pkg.name,
+      name: '@forestar/cli',
       file: pkg.browser,
       format: 'umd'
     },
@@ -29,6 +29,6 @@ export default defineConfig([
       { file: pkg.main, format: 'cjs', exports: 'auto' },
       { file: pkg.module, format: 'es' }
     ],
-    plugins: [commonjs(), typescript({ tsconfig: './tsconfig.json' })]
+    plugins: [typescript({ tsconfig: './tsconfig.json', sourceMap: true })]
   }
 ]);

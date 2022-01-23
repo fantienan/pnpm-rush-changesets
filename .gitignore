@@ -48,21 +48,12 @@ jspm_packages/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
-
-# next.js build output
-.next
-
-# OS X temporary files
-.DS_Store
-
 # Rush temporary files
 common/deploy/
 common/temp/
 common/autoinstallers/*/.npmrc
 **/.rush/temp/
 
-# Heft
-.heft
+# dist
+
+**/dist/

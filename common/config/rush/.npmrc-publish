@@ -18,3 +18,4 @@
 #
 #   //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 #
+registry=https://registry.npmjs.org:_authToken=${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}

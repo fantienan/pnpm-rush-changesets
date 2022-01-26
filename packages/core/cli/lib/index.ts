@@ -3,7 +3,9 @@ import type { CoreParams } from './types';
 
 const core = (params?: CoreParams) => {
   log.info('__filename', __filename);
-  log.info('params', params);
+  if (params) {
+    log.info('params', params.join(','));
+  }
 };
 
 export default core;

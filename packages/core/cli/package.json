@@ -2,6 +2,7 @@
   "name": "@forestar/cli",
   "version": "1.0.2",
   "description": "",
+  "private": "true",
   "bin": {
     "forestar-cli": "bin/index.js"
   },
@@ -19,14 +20,14 @@
     "build": "npx rollup -c",
     "dev": "npx rollup -c -w",
     "start": "node --loader ts-node/esm ./bin/index.js",
-    "dev1": "nodemon --watch src -e ts --exec --loader ts-node/esm ./bin/index.ts"
+    "dev1": "nodemon --watch lib -e ts --exec --loader ts-node/esm ./bin/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@forestar/utils": "workspace:*",
-    "import-local": "~3.1.0"
+    "import-local": "~3.1.0",
+    "@forestar/utils": "workspace:^1.0.2"
   },
   "devDependencies": {
     "typescript": "~4.5.4",

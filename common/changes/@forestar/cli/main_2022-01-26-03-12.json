@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@forestar/cli",
+      "comment": "测试发布",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@forestar/cli"
+}

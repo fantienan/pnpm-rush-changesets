@@ -7,7 +7,7 @@ importers:
 
   ../../packages/core/cli:
     specifiers:
-      '@forestar/utils': workspace:*
+      '@forestar/utils': workspace:^1.0.2
       '@types/node': ~17.0.8
       import-local: ~3.1.0
       ts-node: ~10.4.0

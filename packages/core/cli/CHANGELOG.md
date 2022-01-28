@@ -1,6 +1,13 @@
 # Change Log - @forestar/cli
 
-This log was last generated on Sun, 16 Jan 2022 11:31:12 GMT and should not be manually modified.
+This log was last generated on Thu, 27 Jan 2022 08:34:44 GMT and should not be manually modified.
+
+## 1.0.3
+Thu, 27 Jan 2022 08:34:44 GMT
+
+### Patches
+
+- 测试发布
 
 ## 1.0.2
 Sun, 16 Jan 2022 11:31:12 GMT

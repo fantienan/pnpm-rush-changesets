@@ -2,6 +2,18 @@
   "name": "@forestar/cli",
   "entries": [
     {
+      "version": "1.0.3",
+      "tag": "@forestar/cli_v1.0.3",
+      "date": "Thu, 27 Jan 2022 08:34:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "测试发布"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.2",
       "tag": "@forestar/cli_v1.0.2",
       "date": "Sun, 16 Jan 2022 11:31:12 GMT",

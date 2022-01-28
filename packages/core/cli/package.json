@@ -1,6 +1,6 @@
 {
   "name": "@forestar/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "private": "true",
   "bin": {
@@ -9,6 +9,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
+  "type": "module",
   "files": [
     "bin",
     "dist"
@@ -18,8 +19,8 @@
   },
   "scripts": {
     "build": "npx rollup -c",
-    "dev": "npx rollup -c -w",
-    "start": "node --loader ts-node/esm ./bin/index.js",
+    "build:watch": "npx rollup -c -w",
+    "dev": "node --experimental-specifier-resolution=node --loader ts-node/esm ./bin/index.dev.ts",
     "dev1": "nodemon --watch lib -e ts --exec --loader ts-node/esm ./bin/index.ts"
   },
   "keywords": [],
@@ -27,11 +28,23 @@
   "license": "ISC",
   "dependencies": {
     "import-local": "~3.1.0",
-    "@forestar/utils": "workspace:^1.0.2"
+    "@forestar/utils": "workspace:^1.0.2",
+    "semver": "~7.3.5",
+    "colors": "~1.4.0",
+    "root-check": "1.0.0",
+    "@stdlib/os-homedir": "~0.0.7",
+    "path-exists": "~5.0.0",
+    "minimist": "~1.2.5",
+    "@types/minimist": "~1.2.2",
+    "dotenv": "~14.3.2"
   },
   "devDependencies": {
     "typescript": "~4.5.4",
     "@types/node": "~17.0.8",
-    "ts-node": "~10.4.0"
+    "ts-node": "~10.4.0",
+    "@types/semver": "~7.3.9",
+    "@types/colors": "~1.2.1",
+    "@types/root-check": "~1.0.0",
+    "@types/os-homedir": "~1.0.0"
   }
 }

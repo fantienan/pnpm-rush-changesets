@@ -1,0 +1,1 @@
+export const LOWEST_NODE_VERSION = '16.3.1'

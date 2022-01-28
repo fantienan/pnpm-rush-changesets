@@ -2,10 +2,11 @@
   "name": "@forestar/utils",
   "version": "1.0.2",
   "description": "",
-  "main": "dist/index.js",
+  "main": "lib/index.ts",
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
@@ -14,13 +15,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx rollup -c"
+    "build1": "npx rollup -c",
+    "build": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npmlog": "~6.0.0"
+    "npmlog": "~6.0.0",
+    "pkg-dir": "~6.0.1"
   },
   "devDependencies": {
     "typescript": "~4.5.4",
